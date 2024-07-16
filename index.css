@@ -1,8 +1,51 @@
 body {
     margin: 0;
+    
+    background-image: url("image.png");
+    background: cover;
+    background-repeat: none;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans';
 }
 
 .container {
     display: flex;
+    margin-top: 150px;
     justify-content: space-around;
+    border: 4px solid white;
+    height: 350px;
+    border-radius:18px;
+
+}
+h3{
+    color: rgb(215, 226, 0);
+    font-size: 50px;
+  
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: block;
+    border-radius: 4px;
+    padding: 30px;
+    background-image: url("image.png");
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+button{
+    color:rgb(2, 13, 23);
+    background-color: rgb(17, 135, 232);
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-size: 19px;
+    justify-items: space-between;
+    border-radius: 10px;
 }
